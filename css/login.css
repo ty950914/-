@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*css document*/
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 100px;
+
+	font-size:26.67vw; /* (750设计稿)*/
+
+	/*font-size: 31.25vw; */ /*(640设计稿)*/
+
+
+	/*1vw = 视窗宽度1%
+	1vw = 3.75px
+	?vw = 100px
+
+	? = 100/3.75 = 26.67vw*/
+
+	/*1vw = 3.2px
+	?vw = 100px
+
+	? = 100/3.2 = 31.25vw*/
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #f5f5f9;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.header{
+    text-align: center;
+}
+.header_div{
+    width: .9rem;
+    height: .9rem;
+    margin: 12% auto 0;
+    border-radius: 50%;
+    display: inline-block;
+}
+.header img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 15px #ed9aa2;
+    -moz-box-shadow: 0 0 15px #ed9aa2;
+    box-shadow: 0 0 15px #ed9aa2;
+}
+.item_login{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12%;
+}
+.item_phone{
+    width: 80%;
+    margin: 0 10%;
+    float: left;
+    
+}
+.item_phone img{
+    width: .15rem;
+    height: .2rem;
+    margin-top: 1%;
+    float: left;
+    background-size: 1.5rem auto;
+}
+.item_ipu{
+    padding-left: 10%;
+    width: 90%;
+}
+.item_ipu input{
+    border: 0 none;
+    color: #b2b2b2;
+    font-size: .15rem;
+    font-weight: normal;
+    height: .25rem;
+    background-color: #f6f6f6;
+    width: 64%;
+    float: left;
+    outline: none;
+}
+.item_xia{
+    float: left;
+    width: 80%;
+    height: 1px;
+    border-bottom: 1px solid #b2b2b2;
+    margin-top:.2rem;
+    margin-bottom:.2rem;
+}
+.item_btn button{
+    width: 80%;
+    display: block;
+    height: .4rem;
+    color: #fff;
+    font-size: .22rem;
+    text-align: center;
+    border: none 0;
+    margin: 6% 10% 3%;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    background-color: #bc1e1e;
+    text-decoration: none;
+}
+.item_itp{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.item_itp a{
+    color: #bc1e1e;
+    font-size: .1rem;
+}
+.item_span{
+    float: left;
+    font-size: .15rem;
+    color: #bc1e1e;
+    margin-bottom:.2rem;
+    display: none;
+}
